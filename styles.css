@@ -68,6 +68,8 @@ body {
     margin: 4rem 0;
 }
 .gallery__photos {
+    margin: auto;
+    max-width: 920px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, auto);
